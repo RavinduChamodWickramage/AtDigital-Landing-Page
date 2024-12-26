@@ -1,0 +1,65 @@
+.hero-section {
+  position: relative;
+}
+
+.bg-image {
+  background-image: url("../../../Assets/preview.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.banner {
+  background: linear-gradient(to right, #2ecc71, #1abc9c);
+  width: 40%;
+  margin-left: 10vw;
+  margin-top: 60vh;
+  position: absolute;
+}
+
+.display-3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.consultation-btn {
+  background-color: #f28d35;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.consultation-btn:hover {
+  background-color: #ff5252;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    width: 50vw;
+    margin-left: 10vw;
+    bottom: 10vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    width: 100vw;
+    margin: 0;
+    bottom: 0;
+  }
+
+  .display-3 {
+    font-size: 4rem;
+  }
+
+  .consultation-btn {
+    font-size: 1.5rem;
+    width: auto;
+  }
+}

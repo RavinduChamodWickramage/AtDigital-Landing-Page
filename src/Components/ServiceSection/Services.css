@@ -1,0 +1,27 @@
+.services-container {
+  margin: 10vh 10vw;
+  padding: 10vh 10vw;
+}
+
+.title {
+  color: #6b3cc9;
+}
+
+.service-btn {
+  background-color: #f28d35;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  width: 200px;
+}
+
+@media (max-width: 375px) {
+  .services-container {
+    margin: 10vh 10vw;
+    padding: 10vh 10vw;
+  }
+
+  .services-container > .row:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+}

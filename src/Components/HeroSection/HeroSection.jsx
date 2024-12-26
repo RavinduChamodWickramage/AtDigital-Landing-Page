@@ -11,7 +11,7 @@ function HeroSection() {
               We Crush Your Competitors, Goals, And Sales Records - Without The
               B.S.
             </h1>
-            <button className="btn consultation-btn text-uppercase">
+            <button className="consultation-btn text-uppercase">
               Get Free Consultation
             </button>
           </div>

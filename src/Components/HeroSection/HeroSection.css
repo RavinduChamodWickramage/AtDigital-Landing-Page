@@ -3,19 +3,19 @@
 }
 
 .bg-image {
-  background-image: url("../../../Assets/preview.png");
+  background-image: url("../../../public/Assets/preview.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 
 .banner {
-  background: linear-gradient(to right, #2ecc71, #1abc9c);
-  width: 40%;
+  background: linear-gradient(to right, #4DCA79, #1CBDDD);
+  width: 50%;
   margin-left: 10vw;
-  margin-top: 60vh;
+  margin-top: 50vh;
   position: absolute;
 }
 
@@ -28,10 +28,11 @@
 .consultation-btn {
   background-color: #f28d35;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 20px; 
   border: none;
   text-transform: uppercase;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .consultation-btn:hover {
@@ -55,11 +56,26 @@
   }
 
   .display-3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .consultation-btn {
-    font-size: 1.5rem;
-    width: auto;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner {
+    width: 100vw;
+    margin: 0;
+    bottom: 0;
+  }
+
+  .display-3 {
+    font-size: 2rem;
+  }
+
+  .consultation-btn {
+    font-size: 0.75rem;
   }
 }

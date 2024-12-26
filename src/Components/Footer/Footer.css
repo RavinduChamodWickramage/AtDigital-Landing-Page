@@ -1,0 +1,27 @@
+.footer {
+  background-color: #6b3cc9;
+}
+
+.footer h2 {
+  font-weight: bold;
+}
+
+.footer ul li {
+  font-size: 0.95rem;
+}
+
+.border-top {
+  position: relative;
+  border-top: none !important;
+}
+
+.border-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}

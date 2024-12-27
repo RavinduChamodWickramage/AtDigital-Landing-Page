@@ -1,19 +1,19 @@
 import React from "react";
 import "./Services.css";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+
 
 function Services() {
   return (
-    <Container className="services-container p-0">
-      <Row className="p-2">
-        <Col md={6} xs={10} className="d-flex justify-content-center">
-          <Image src="../../../Assets/Development.png" />
-        </Col>
-        <Col
-          md={6}
-          xs={10}
-          className="d-flex flex-column justify-content-center"
-        >
+    <div className="container services-container">
+      <div className="row">
+        <div className="col-12 col-sm-6 d-flex justify-content-center">
+          <img
+            src="../../../Assets/Development.png"
+            alt="Development"
+            className="img-fluid"
+          />
+        </div>
+        <div className="col-12 col-sm-6 d-flex flex-column justify-content-center">
           <h2 className="title">Web & Mobile App Development</h2>
           <p>
             Your web and mobile Apps are pieces of the puzzle to grow your
@@ -21,16 +21,12 @@ function Services() {
             methods to respond to different intents shown by your potential
             customers who interact with your business online.
           </p>
-          <Button className="service-btn">Learn More</Button>
-        </Col>
-      </Row>
+          <button className="btn service-btn">Learn More</button>
+        </div>
+      </div>
 
-      <Row className="p-2">
-        <Col
-          md={6}
-          xs={10}
-          className="d-flex flex-column justify-content-center"
-        >
+      <div className="row">
+        <div className="col-12 col-sm-6 d-flex flex-column justify-content-center">
           <h2 className="title">Digital Strategy Consulting</h2>
           <p>
             Your digital strategy should complement the overall marketing
@@ -39,13 +35,17 @@ function Services() {
             provide a clear concept and strategic overview to find the most
             efficient model for your business.
           </p>
-          <Button className="service-btn">Learn More</Button>
-        </Col>
-        <Col md={6} xs={10} className="d-flex justify-content-center">
-          <Image src="../../../Assets/Consulting.png" />
-        </Col>
-      </Row>
-    </Container>
+          <button className="btn service-btn">Learn More</button>
+        </div>
+        <div className="col-12 col-sm-6 d-flex justify-content-center">
+          <img
+            src="../../../Assets/Consulting.png"
+            alt="Consulting"
+            className="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
   );
 }
 

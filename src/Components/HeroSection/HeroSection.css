@@ -1,5 +1,5 @@
 .hero-section {
-  position: relative;
+  min-height: 100vh;
 }
 
 .bg-image {
@@ -78,4 +78,5 @@
   .consultation-btn {
     font-size: 0.75rem;
   }
+
 }
